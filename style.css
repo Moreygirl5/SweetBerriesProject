@@ -1,3 +1,7 @@
+body {
+    background-color: #F5F3EF;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -36,25 +40,173 @@ a {
     color: white;
     border-radius: 28px;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    
-    
+    font-weight: bold;   
 }
 
 button {
-    width: 130px;
+    width: 143px;
     height: 48px;
-    left: 1230px;
-    top: 26px;
-    background: #FFFFFF;
+    left: 40px;
+    top: 236px;
     border: 1px solid #DCDCDC;
-    border-radius: 28px;
+    border-radius: 50px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
 
+h1 {
+    width: 600px;
+    height: 150px;
+    left: 80px;
+    top: 108px;
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 10px;
+}
 
+.intro-text {
+    
+    padding-top: 10px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+    
+}
+
+.intro-p {
+    width: 600px;
+    height: 128px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #646464; 
+}
+
+p {
+    width: 320px;
+    height: 112px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #646464;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+h3 {
+    width: 132px;
+    height: 28px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+nav {
+    margin: 5%;
+    display: grid;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    width: 400px;
+    height: 324px;
+    left: 80px;
+    top: 40px;
+    background: #FEBD2F;
+    border-radius: 40px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.chef {
+    padding: 40px;
+    gap: 32px;
+    width: 400px;
+    height: 324px;
+    left: 520px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.essentials {
+    padding: 40px;
+    gap: 32px;
+    width: 400px;
+    height: 324px;
+    left: 520px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.nutrition {
+    padding: 40px;
+    gap: 32px;
+    width: 400px;
+    height: 324px;
+    left: 520px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.plant {
+    padding: 40px;
+    gap: 32px;
+    width: 400px;
+    height: 324px;
+    left: 520px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+
+.teens {
+    padding: 40px;
+    gap: 32px;
+    width: 400px;
+    height: 324px;
+    left: 520px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
 
 footer {
     width: 100%;
@@ -65,5 +217,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
