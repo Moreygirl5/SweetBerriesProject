@@ -8,8 +8,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-family: "Roboto", sans-serif;
-    font size: 16;
+    font-family: "Roboto Medium";
+    font-size: 16;
     height: 19px;
 }
 
@@ -21,7 +21,7 @@ header {
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 24;
     font-style: bold;
 }
@@ -43,7 +43,7 @@ a, a:hover, a:visited, a:active {
     background: #000000;
     color: white;
     border-radius: 28px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: bold; 
     text-decoration: none;  
 }
@@ -55,12 +55,14 @@ button {
     top: 236px;
     border: 1px solid #DCDCDC;
     border-radius: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: bold;
 }
 
 .intro {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 5%;
 }
@@ -70,7 +72,7 @@ h1 {
     height: 150px;
     left: 80px;
     top: 108px;
-    font-family: 'Roboto Serif', sans-serif;
+    font-family: "Roboto Serif";
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
@@ -94,7 +96,7 @@ h1 {
 .intro-p {
     width: 600px;
     height: 128px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -105,7 +107,7 @@ h1 {
 p {
     width: 320px;
     height: 112px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -119,7 +121,7 @@ p {
 h3 {
     width: 75%;
     height: 28px;
-    font-family: 'Roboto Serif';
+    font-family: "Roboto Serif";
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -152,7 +154,7 @@ nav {
     top: 40px;
     background: #FEBD2F;
     border-radius: 40px;
-    font-family: 'Roboto Serif';
+    font-family: "Roboto Serif";
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -268,5 +270,232 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+/* Tablet */
+@media screen and (max-width: 1500px){
+    .logo-image{
+        margin-right: 200px;
+    }
+    .intro-img {
+        width: 688px;
+        height: 360px;
+        margin-right: 200px;
+    }
+    .intro {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .intro-text {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .intro-p {
+        font-size: 20px;
+    }
+    .explore {
+        width: 332px;
+        height: 271px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    .chef {
+        width: 332px;
+        height: 271px;
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .essentials {
+        width: 332px;
+        height: 271px;
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .nutrition {
+        width: 332px;
+        height: 271px;
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .plant {
+        width: 332px;
+        height: 271px;
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .teens {
+        width: 332px;
+        height: 271px;
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .knife-icon {
+        position: absolute;
+        bottom: -75px;
+        padding-left: 100px;
+}
+    .pot-icon {
+        position: absolute;
+        bottom: -430px;
+        padding-left: 100px;
+    }
+
+    .clipboard-icon {
+        position: absolute;
+        bottom: -430px;
+        padding-left: 100px;
+    }
+
+    .leaf-icon {
+        position: absolute;
+        bottom: -730px;
+        padding-left: 100px;
+    }
+
+    .hamburger-icon {
+        position: absolute;
+        bottom: -730px;
+        padding-left: 100px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px){
+   .intro-img {
+    width: 342px;
+    height: 220px;
+    margin: 5%;
+   }
+
+   .logo-image{
+    margin-right: 100px;
+}
+
+    .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 5%;
+}
+    .intro-text {
+    text-align: center;
+    width: 100%;
+}
+
+    h1 {
+    height: 126px;
+    width: 342px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    width: 80%;
+    padding-top: 10%;
+    flex: 0, 1, auto;
+}   
+
+    .intro-p {
+    font-size: 18px;
+    line-height: 24px;
+    width: 75%;
+    padding-bottom: 20%;
+    flex: 1, 1, auto;
+}
+    .explore {
+    font-size: 24px;
+    line-height: 28px;
+    width: 342px;
+    height: 132px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+    nav {
+    gap: 30px;
+}
+
+    .chef {
+    width: 342px;
+    height: 247px;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+    .essentials {
+    width: 342px;
+    height: 247px;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+    .nutrition {
+    width: 342px;
+    height: 247px;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+    .plant {
+    width: 342px;
+    height: 247px;
+    grid-row: 5;
+    grid-column: 1;
+}
+
+    .teens {
+    width: 342px;
+    height: 247px;
+    grid-row: 6;
+    grid-column: 1;
+}
+
+    .knife-icon {
+    position: absolute;
+    bottom: -225px;
+    padding-left: 100px;
+}
+    .pot-icon {
+    position: absolute;
+    bottom: -510px;
+    padding-left: 100px;
+}
+
+    .clipboard-icon {
+    position: absolute;
+    bottom: -790px;
+    padding-left: 100px;
+}
+
+    .leaf-icon {
+    position: absolute;
+    bottom: -1070px;
+    padding-left: 100px;
+}
+
+    .hamburger-icon {
+    position: absolute;
+    bottom: -1350px;
+    padding-left: 100px;
+}
+
+    .button {
+    width: 142px;
+    height: 47px;
+    }
 }
